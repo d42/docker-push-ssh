@@ -24,7 +24,7 @@ except ImportError:
     from urllib.request import urlopen
     from urllib.error import URLError
 
-from command import Command
+from .command import Command
 
 
 def getLocalIp():
